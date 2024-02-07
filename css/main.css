@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 header{
-	/*background-color: burlywood;
+	background-color: burlywood;
 	height: 60vh;
-	 background-image: url("/image/4870223.jpg");
+	background-image: url("/image/rb.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: cover; */
-	
+	background-size: cover; 
 	/* border: 2px solid red; */
 }
+
 .header{
 	display: flex;
 	flex-direction: column;
@@ -27,7 +27,7 @@ img{
 	/* border: 2px solid salmon; */
 	display: flex;
 	flex-direction: row;
-	background-color: white;	
+	
 
 }
 .media{
@@ -85,11 +85,13 @@ img{
 }
 .login a{
 	text-decoration: none;
+	/* color: black; */
+	color: white;
 }
 .login a:first-child{
 
 	padding-right: 20px;
-	border-right: 2px solid rgba(0, 0, 0, 0.116);
+	border-right: 2px solid rgb(255, 247, 247);
 	
 }
 .login a:last-child{
@@ -110,7 +112,8 @@ img{
 	
 }
 .nav1 a{
-	color:black;
+	/* color:black; */
+	color: white;
 	text-decoration: none;
 	
 }
@@ -126,7 +129,8 @@ img{
 	justify-content: space-around;
 }
 .nav2 a{
-	color:black;
+	/* color:black; */
+	color: white;
 	text-decoration: none;
 	
 }
@@ -135,24 +139,33 @@ img{
 	text-align: center;
 	display:flex;
 	flex-direction: column;
-	 border: 2px solid black; 
+	 /* border: 2px solid black;  */
 	justify-content:center;
 	align-items: center;
 	gap: 20px;
 }
-.slogan h1{
-	font-family:'Times New Roman', Times, serif
-
+.slogan h3{
+	font-family:'Times New Roman', Times, serif;
+	font-size: x-large;
+	font-weight: 400;
+	color: white;
+}
+.slogan div:nth-child(2)
+{
+	word-spacing: 5px;
 }
 .but {
 	padding-top: 20px;
 }
 button{
 	border: none;
-	border-radius: 5px;
+	border-radius: 30px;
 	cursor: pointer;
-	padding: 5px;
-	background-color: aquamarine;
+	background-color: rgb(0, 0, 0);
+	width:125px;
+	height:50px;
+	font-size:small;
+	color: white;	
 }
 
 
