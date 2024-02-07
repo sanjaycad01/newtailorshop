@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+	/*background-color: burlywood;
+	height: 60vh;
+	 background-image: url("/image/4870223.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover; */
+	
+	/* border: 2px solid red; */
+}
+.header{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	/* border: 2px solid black; */
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.social{
+	/* border: 2px solid salmon; */
+	display: flex;
+	flex-direction: row;
+	background-color: white;	
+
+}
+.media{
+	position:relative;
+	display: flex;
+	justify-content:flex-start;
+	left: 20px;
+	
+}
+.media a{
+	display: block;
+ 	text-align: center;
+    padding: 10px 10px;
+    text-decoration:none ;
+	margin: 5px;
+       
+}
+.media a:nth-child(1){
+	color: #316FF6;
+}
+.media a:nth-child(2){
+	color: #cd486b ;
+}
+.media a:nth-child(3){
+	color: gray;
+}
+.media a:nth-child(4){
+	color: #25D366;
+}
+.media a:nth-child(1):hover{
+	background-color: #316FF6;
+	color: white;
+	border-radius: 50%;
+}
+.media a:nth-child(2):hover{
+	background-color:  #cd486b;
+	color: white;
+	border-radius: 50%;
+}
+.media a:nth-child(3):hover{
+	background-color: gray;;
+	color: white;
+	border-radius: 50%;
+}
+.media a:nth-child(4):hover{
+	background-color:#25D366;;
+	color: white;
+	border-radius: 50%;
+}
+.social  .login{
+	position:relative;
+	align-items: center;
+	display: flex;
+	left:1000px;
+}
+.login a{
+	text-decoration: none;
+}
+.login a:first-child{
+
+	padding-right: 20px;
+	border-right: 2px solid rgba(0, 0, 0, 0.116);
+	
+}
+.login a:last-child{
+	padding-left: 20px;
+}
+.nav{
+	/* border: 2px solid rebeccapurple;  */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	place-items: center;
+}
+
+.nav1{
+	width: 25%;
+	display: flex;
+	justify-content: space-around;
+	
+}
+.nav1 a{
+	color:black;
+	text-decoration: none;
+	
+}
+.logo{
+	display: flex;
+	align-content:center ;
+
+
+}
+.nav2{
+	width: 25%;
+	display: flex;
+	justify-content: space-around;
+}
+.nav2 a{
+	color:black;
+	text-decoration: none;
+	
+}
+.slogan{
+	height: 30vh;
+	text-align: center;
+	display:flex;
+	flex-direction: column;
+	 border: 2px solid black; 
+	justify-content:center;
+	align-items: center;
+	gap: 20px;
+}
+.slogan h1{
+	font-family:'Times New Roman', Times, serif
+
+}
+.but {
+	padding-top: 20px;
+}
+button{
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 5px;
+	background-color: aquamarine;
+}
+
+
+/*
+h1 {
+	display: inline-block;
+} */
